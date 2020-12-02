@@ -5,7 +5,7 @@ import aiohttp
 from aiotgbot.modules.help import add_command_help
 
 
-@dp.message_handler(regexp='(^cat[s]?$|pussy)')
+@dp.message_handler(regexp='^(cat[s]?|pussy)$')
 async def cats(message: types.Message):
     async with aiohttp.ClientSession() as ses:
         async with ses.get(
