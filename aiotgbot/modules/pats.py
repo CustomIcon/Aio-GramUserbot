@@ -17,7 +17,7 @@ async def pats(message: types.Message):
 
 
 add_command_help(
-    'Pat', [
-        ['pat | pats', 'pat gifs (some-random-api.ml)'],
+    'pat', [
+        ['pat | pats', '| pat gifs (some-random-api.ml)'],
     ]
 )

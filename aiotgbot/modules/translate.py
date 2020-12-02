@@ -38,7 +38,7 @@ async def do_translate(message: types.Message):
 
 
 add_command_help(
-    'Translate', [
-        ['/tr', 'Google Translate (@DavideGalilei)'],
+    'translate', [
+        ['/tr', '| Google Translate (@DavideGalilei)'],
     ]
 )

@@ -16,7 +16,7 @@ async def cats(message: types.Message):
 
 
 add_command_help(
-    'Cat', [
-        ['cat | cats | pussy', 'neko pics (thecatapi.com)'],
+    'cat', [
+        ['cat | cats | pussy', '| neko pics (thecatapi.com)'],
     ]
 )
