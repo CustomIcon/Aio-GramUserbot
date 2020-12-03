@@ -5,7 +5,7 @@ import aiohttp
 from aiotgbot.modules.help import add_command_help
 
 
-@dp.message_handler(regexp='(pat[s]|pa[t])')
+@dp.message_handler(regexp='pat[s]?$')
 async def pats(message: types.Message):
     async with aiohttp.ClientSession() as ses:
         async with ses.get(
